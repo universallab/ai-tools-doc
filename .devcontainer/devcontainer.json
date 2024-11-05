@@ -1,0 +1,18 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {}
+  },
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "universallab/ai-tools-doc": {
+          "permissions": {
+            "permissions": "write-all"
+          }
+        }
+      }
+    }
+  },
+  "postCreateCommand": "apt-get update && apt-get install -y pandoc"
+}

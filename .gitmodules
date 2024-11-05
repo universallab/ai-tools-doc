@@ -1,0 +1,3 @@
+[submodule "wiki-pages"]
+	path = wiki-pages
+	url = https://github.com/universallab/ai-tools-doc.wiki.git
